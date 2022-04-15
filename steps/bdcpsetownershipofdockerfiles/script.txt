@@ -1,0 +1,10 @@
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker/*
+
+cd /home/{linuxUser.user}/
+pwd
+ls -ltr
+
+cd /home/{linuxUser.user}/docker/
+pwd
+ls -ltr

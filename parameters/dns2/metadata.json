@@ -1,0 +1,6 @@
+{
+    "key": "dns2", 
+    "name": "DNS2", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Server"
+}

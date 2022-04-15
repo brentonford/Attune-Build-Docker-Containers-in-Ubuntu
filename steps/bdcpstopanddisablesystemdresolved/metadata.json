@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "bdcpstopanddisablesystemdresolved", 
+    "name": "BDCP stop and disable systemd-resolved", 
+    "osCredKey": "linuxuser", 
+    "promptResponses": "Password:==={linuxUser.password}", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

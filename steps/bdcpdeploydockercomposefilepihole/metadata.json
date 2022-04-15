@@ -1,0 +1,40 @@
+{
+    "archiveKey": "dockercomposepiholedockercomposeyml", 
+    "deployPath": "/home/{linuxUser.user}/docker/", 
+    "enabled": true, 
+    "key": "bdcpdeploydockercomposefilepihole", 
+    "makoFileNames": [
+        "pihole-docker-compose.yml"
+    ], 
+    "makoParameters": [
+        {
+            "name": "node", 
+            "parameterKey": "linuxnode", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "timezone", 
+            "parameterKey": "timezone", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "user", 
+            "parameterKey": "linuxuser", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
+        }, 
+        {
+            "name": "dns1", 
+            "parameterKey": "dns1", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "dns2", 
+            "parameterKey": "dns2", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }
+    ], 
+    "name": "BDCP Deploy Docker Compose File - pihole", 
+    "osCredKey": "linuxuser", 
+    "serverKey": "linuxnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

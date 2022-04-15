@@ -1,0 +1,1 @@
+docker-compose -f /home/{linuxUser.user}/docker/{dockerComposeFile} up -d --remove-orphans

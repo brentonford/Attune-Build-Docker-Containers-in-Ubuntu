@@ -1,0 +1,38 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "deployandbuilddockercontainersforraspberrypihole", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "bdcpstopanddisablesystemdresolved"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "bdcpupdateresolvconf"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "bdcpdeploydockercomposefilepihole"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "bdcpsetownershipofdockerfiles"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "bdcpcreateandstartdockercontainers"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "bdcpdockercontainersrunning"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "bdcpconfirmpiholewebsiteisup"
+        }
+    ], 
+    "name": "Deploy and Build Docker Containers for Raspberry pihole", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

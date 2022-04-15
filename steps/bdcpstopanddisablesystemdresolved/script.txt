@@ -1,0 +1,3 @@
+systemctl stop systemd-resolved.service
+
+systemctl disable systemd-resolved.service

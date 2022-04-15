@@ -1,0 +1,6 @@
+{
+    "key": "dockercomposefile", 
+    "name": "Docker Compose File", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

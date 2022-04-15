@@ -1,0 +1,1 @@
+curl -Is {linuxNode.ip}/admin/index.php | head -1

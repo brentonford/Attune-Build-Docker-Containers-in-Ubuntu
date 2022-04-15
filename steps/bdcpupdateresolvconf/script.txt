@@ -1,0 +1,10 @@
+echo "nameserver {dns1.ip}" >> /etc/resolv.conf
+echo "nameserver {dns2.ip}" >> /etc/resolv.conf
+
+cat /etc/resolv.conf
+
+systemctl daemon-reload
+
+systemctl restart docker
+
+systemctl status docker
