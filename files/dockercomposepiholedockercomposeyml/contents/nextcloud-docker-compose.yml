@@ -1,0 +1,16 @@
+version: "3.6"
+services:
+
+  nextcloud:
+    container_name: nextcloud
+    restart: unless-stopped 
+    image: linuxserver/nextcloud
+    volumes:
+     - /home/${user.user}/docker/nextcloud:/config
+     - /home/${user.user}/shared_data:/data
+     - /home/${user.user}/docker/shared:/shared
+    ports:
+     - "9001:443"
+    environment:
+     - PUID=1000
+     - PGID=1000
