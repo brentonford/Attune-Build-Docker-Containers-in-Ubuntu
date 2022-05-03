@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "bdcpconfirmpiholewebsiteisup", 
-    "name": "BDCP Confirm Pi-hole website is up", 
+    "key": "createandstartpiholedockercontainer", 
+    "name": "Create and Start PiHole Docker Container", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 

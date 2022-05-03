@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "bdcpupdateresolvconf", 
-    "name": "BDCP Update resolv.conf", 
+    "key": "updateresolvconf", 
+    "name": "Update resolv.conf", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 

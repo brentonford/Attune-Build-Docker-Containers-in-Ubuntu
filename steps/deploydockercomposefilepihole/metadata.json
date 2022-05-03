@@ -2,7 +2,7 @@
     "archiveKey": "dockercomposepiholedockercomposeyml", 
     "deployPath": "/home/{linuxUser.user}/docker/", 
     "enabled": true, 
-    "key": "bdcpdeploydockercomposefilepihole", 
+    "key": "deploydockercomposefilepihole", 
     "makoFileNames": [
         "pihole-docker-compose.yml"
     ], 
@@ -33,7 +33,7 @@
             "parameterType": "c.s.s.b.phv.Server"
         }
     ], 
-    "name": "BDCP Deploy Docker Compose File - pihole", 
+    "name": "Deploy Docker Compose File - pihole", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"

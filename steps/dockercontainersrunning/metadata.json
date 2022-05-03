@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "bdcpdockercontainersrunning", 
-    "name": "BDCP Docker Containers Running", 
+    "key": "dockercontainersrunning", 
+    "name": "Docker Containers Running", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 

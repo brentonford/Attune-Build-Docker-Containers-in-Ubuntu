@@ -1,41 +1,6 @@
 version: "3.6"
 services:
 
-  portainer:
-      image: portainer/portainer
-      container_name: portainer
-      restart: unless-stopped 
-      command: -H unix:///var/run/docker.sock
-      ports:
-        - "9000:9000"
-      volumes:
-        - /var/run/docker.sock:/var/run/docker.sock
-        - /home/${user.user}/docker/portainer/data:/data
-        - /home/${user.user}/docker/shared:/shared
-      environment:
-        - TZ=${timezone}
-  watchtower:
-    container_name: watchtower
-    restart: unless-stopped
-    image: v2tec/watchtower
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    command: --schedule "0 0 4 * * *" --cleanup
-
-    #nextcloud:
-    #container_name: nextcloud
-    #restart: unless-stopped 
-    #image: linuxserver/nextcloud
-    #volumes:
-    #  - /home/${user.user}/docker/nextcloud:/config
-    #  - /home/${user.user}/shared_data:/data
-    #  - /home/${user.user}/docker/shared:/shared
-    #ports:
-    #  - "9001:443"
-    #environment:
-    #  - PUID=1000
-    #  - PGID=1000
-
   pihole:
     container_name: pihole
     domainname: docker
@@ -52,13 +17,8 @@ services:
     restart: unless-stopped
     volumes:
       - /home/${user.user}/docker/pihole/pihole:/etc/pihole
-      # - /home/${user.user}/docker/pihole/pihole.log:/var/log/pihole.log
       - /home/${user.user}/docker/pihole/dnsmasq.d:/etc/dnsmasq.d
     cap_add:
       - NET_ADMIN
     environment:
-      - ServerIP=${node.ip}
       - TZ=${timezone}
-      - WEBPASSWORD=${user.password}
-      - DNS1=${dns1.ip}
-      - DNS2=${dns2.ip}

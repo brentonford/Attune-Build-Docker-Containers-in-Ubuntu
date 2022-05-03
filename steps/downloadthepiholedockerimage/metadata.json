@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "bdcpsetownershipofdockerfiles", 
-    "name": "BDCP Set Ownership of docker files", 
+    "key": "downloadthepiholedockerimage", 
+    "name": "Download the pihole docker image", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 

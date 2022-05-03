@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "bdcpstopanddisablesystemdresolved", 
-    "name": "BDCP stop and disable systemd-resolved", 
+    "key": "stopanddisablesystemdresolved", 
+    "name": "stop and disable systemd-resolved", 
     "osCredKey": "linuxuser", 
     "promptResponses": "Password:==={linuxUser.password}", 
     "serverKey": "linuxnode", 
