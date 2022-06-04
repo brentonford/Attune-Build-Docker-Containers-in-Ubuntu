@@ -2,16 +2,11 @@
     "archiveKey": "dockercomposefiles", 
     "deployPath": "/home/{linuxUser.user}/docker/", 
     "enabled": true, 
-    "key": "deploydockercomposefilepihole", 
+    "key": "deploydockercomposefileportainer", 
     "makoFileNames": [
-        "pihole-docker-compose.yml"
+        "portainer-docker-compose.yml"
     ], 
     "makoParameters": [
-        {
-            "name": "node", 
-            "parameterKey": "linuxnode", 
-            "parameterType": "c.s.s.b.phv.LinuxServer"
-        }, 
         {
             "name": "timezone", 
             "parameterKey": "timezone", 
@@ -21,19 +16,9 @@
             "name": "user", 
             "parameterKey": "linuxuser", 
             "parameterType": "c.s.s.b.phv.LinOsCred"
-        }, 
-        {
-            "name": "dns1", 
-            "parameterKey": "dns1", 
-            "parameterType": "c.s.s.b.phv.Server"
-        }, 
-        {
-            "name": "dns2", 
-            "parameterKey": "dns2", 
-            "parameterType": "c.s.s.b.phv.Server"
         }
     ], 
-    "name": "Deploy Docker Compose File - pihole", 
+    "name": "Deploy Docker Compose File - portainer", 
     "osCredKey": "linuxuser", 
     "serverKey": "linuxnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"

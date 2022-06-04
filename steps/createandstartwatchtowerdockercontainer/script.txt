@@ -1,0 +1,1 @@
+docker-compose -f /home/{linuxUser.user}/docker/watchtower-docker-compose.yml up -d --remove-orphans

@@ -1,0 +1,32 @@
+
+      - /home/${user.user}/docker/pihole/pihole:/etc/pihole
+      - /home/${user.user}/docker/pihole/dnsmasq.d:/etc/dnsmasq.d
+
+        - /var/run/docker.sock:/var/run/docker.sock
+        - /home/${user.user}/docker/portainer/data:/data
+        - /home/${user.user}/docker/shared:/shared
+        
+        
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker/*
+
+cd /home/{linuxUser.user}/
+pwd
+ls -ltr
+
+cd /home/{linuxUser.user}/docker/
+pwd
+ls -ltr
+
+
+
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker/portainer/data
+chown {linuxUser.user}:{linuxUser.user} /home/{linuxUser.user}/docker/portainer/data/*
+
+cd /home/{linuxUser.user}/
+pwd
+ls -ltr
+
+cd /home/{linuxUser.user}/docker/
+pwd
+ls -ltr

@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "deployandstartportainerdockercontainer", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deploydockercomposefileportainer"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "setownershipofdockerfiles"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "downloadportainerdockerimage"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "createandstartportainerdockercontainer"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "dockercontainersrunning"
+        }
+    ], 
+    "name": "Deploy and Start Portainer Docker Container", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

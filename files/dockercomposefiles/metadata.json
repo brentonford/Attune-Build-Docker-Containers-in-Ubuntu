@@ -1,0 +1,5 @@
+{
+    "key": "dockercomposefiles", 
+    "name": "Docker Compose Files", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}
