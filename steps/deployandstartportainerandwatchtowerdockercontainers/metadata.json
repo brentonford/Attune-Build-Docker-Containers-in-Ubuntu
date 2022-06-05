@@ -1,18 +1,9 @@
 {
     "concurrency": 1, 
     "enabled": true, 
-    "isBlueprint": true, 
+    "isBlueprint": false, 
     "key": "deployandstartportainerandwatchtowerdockercontainers", 
-    "links": [
-        {
-            "order": 0, 
-            "stepKey": "deployandstartportainerdockercontainer"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "deployandstartwatchtowerdockercontainer"
-        }
-    ], 
-    "name": "Deploy and Start Portainer and Watchtower Docker Containers", 
+    "links": [], 
+    "name": "DELETE Deploy and Start Portainer and Watchtower Docker Containers", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

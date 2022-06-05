@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "joindockerswarm", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "joindockerworkertodockerswarmmaster"
+        }
+    ], 
+    "name": "Join Docker Swarm", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

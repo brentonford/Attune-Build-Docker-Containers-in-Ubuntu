@@ -1,0 +1,6 @@
+{
+    "key": "dockerswarmmastertoken", 
+    "name": "Docker Swarm Master Token", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "dockerswarmmasternode", 
+    "name": "Docker Swarm Master Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

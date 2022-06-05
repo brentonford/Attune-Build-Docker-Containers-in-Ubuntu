@@ -3,8 +3,8 @@
     "interpreter": 1, 
     "key": "createandstartportainerdockercontainer", 
     "name": "Create and Start Portainer Docker Container", 
-    "osCredKey": "linuxuser", 
-    "serverKey": "linuxnode", 
+    "osCredKey": "dockerlinuxuser", 
+    "serverKey": "dockernode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "joindockerworkertodockerswarmmaster", 
+    "name": "Join Docker Worker to Docker Swarm Master", 
+    "osCredKey": "dockerswarmworkerlinuxuser", 
+    "serverKey": "dockerswarmworkernode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

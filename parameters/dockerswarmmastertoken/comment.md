@@ -1,0 +1,1 @@
+Docker Swarm Join Token

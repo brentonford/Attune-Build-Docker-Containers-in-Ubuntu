@@ -1,6 +1,6 @@
 {
     "archiveKey": "dockercomposefiles", 
-    "deployPath": "/home/{linuxUser.user}/docker/", 
+    "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
     "key": "deploydockercomposefilewatchtower", 
     "makoFileNames": [
@@ -8,7 +8,7 @@
     ], 
     "makoParameters": [], 
     "name": "Deploy Docker Compose File - Watchtower", 
-    "osCredKey": "linuxuser", 
+    "osCredKey": "dockerlinuxuser", 
     "serverKey": "linuxnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }

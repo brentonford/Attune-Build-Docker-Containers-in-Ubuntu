@@ -1,0 +1,6 @@
+{
+    "key": "dockerswarmmasternodeport", 
+    "name": "Docker Swarm Master Node Port", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

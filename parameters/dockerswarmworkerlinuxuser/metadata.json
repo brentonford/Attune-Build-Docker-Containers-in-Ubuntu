@@ -1,0 +1,6 @@
+{
+    "key": "dockerswarmworkerlinuxuser", 
+    "name": "Docker Swarm Worker Linux  User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

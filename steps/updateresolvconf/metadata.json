@@ -3,8 +3,8 @@
     "interpreter": 1, 
     "key": "updateresolvconf", 
     "name": "Update resolv.conf", 
-    "osCredKey": "linuxuser", 
-    "serverKey": "linuxnode", 
+    "osCredKey": "dockerlinuxuser", 
+    "serverKey": "dockernode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

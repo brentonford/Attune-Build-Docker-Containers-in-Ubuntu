@@ -3,9 +3,9 @@
     "interpreter": 1, 
     "key": "stopanddisablesystemdresolved", 
     "name": "stop and disable systemd-resolved", 
-    "osCredKey": "linuxuser", 
+    "osCredKey": "dockerlinuxuser", 
     "promptResponses": "Password:==={linuxUser.password}", 
-    "serverKey": "linuxnode", 
+    "serverKey": "dockernode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
 }

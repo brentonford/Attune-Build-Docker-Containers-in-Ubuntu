@@ -1,6 +1,6 @@
 {
     "archiveKey": "dockercomposefiles", 
-    "deployPath": "/home/{linuxUser.user}/docker/", 
+    "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
     "key": "deploydockercomposefileportainer", 
     "makoFileNames": [
@@ -14,12 +14,12 @@
         }, 
         {
             "name": "user", 
-            "parameterKey": "linuxuser", 
+            "parameterKey": "dockerlinuxuser", 
             "parameterType": "c.s.s.b.phv.LinOsCred"
         }
     ], 
     "name": "Deploy Docker Compose File - portainer", 
-    "osCredKey": "linuxuser", 
+    "osCredKey": "dockerlinuxuser", 
     "serverKey": "linuxnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }
