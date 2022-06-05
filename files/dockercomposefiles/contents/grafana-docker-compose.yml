@@ -1,0 +1,18 @@
+version: "3.6"
+
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: always
+    # user: "1000" # needs to be `id -u` // alternatively chown the grafana/data dir to 472:472
+    ports:
+      - "3000:3000" # expose for localhost
+    volumes:
+      - /home/${user.user}/docker/grafana/data:/var/lib/grafana # data path
+      - /home/${user.user}/docker/grafana/grafana.ini:/etc/grafana/grafana.ini
+      - /home/${user.user}/docker/grafana/provisioning:/etc/grafana/provisioning
+    environment:
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
+      - GF_SECURITY_ADMIN_USER=${grafanaUser.user}
+      - GF_SECURITY_ADMIN_PASSWORD=${grafanaUser.password}

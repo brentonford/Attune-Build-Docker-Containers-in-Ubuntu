@@ -1,3 +1,3 @@
-docker-compose -f `
-/home/{dockerLinuxUser.user}/docker/portainer-docker-compose.yml `
+docker-compose -f \
+/home/{dockerLinuxUser.user}/docker/portainer-docker-compose.yml \
 up -d --remove-orphans

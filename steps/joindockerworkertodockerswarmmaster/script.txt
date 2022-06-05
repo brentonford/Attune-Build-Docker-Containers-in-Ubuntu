@@ -1,2 +1,2 @@
-docker swarm join --token {dockerSwarmMasterToken.password} `
+docker swarm join --token {dockerSwarmMasterToken.password} \
 {dockerSwarmMasterNode.ip}:{dockerSwarmMasterNodePort}

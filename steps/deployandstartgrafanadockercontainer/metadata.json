@@ -1,0 +1,9 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "deployandstartgrafanadockercontainer", 
+    "links": [], 
+    "name": "Deploy and Start Grafana Docker Container", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
