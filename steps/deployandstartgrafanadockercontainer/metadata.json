@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "448f36e3-7181-44a3-861a-9e6db1b18b65", 
     "isBlueprint": true, 
     "key": "deployandstartgrafanadockercontainer", 
     "links": [], 

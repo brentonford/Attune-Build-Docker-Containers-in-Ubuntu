@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "4c4419e8-ecf9-4b55-85c6-bb58e32ef746", 
     "interpreter": 1, 
     "key": "downloadthepiholedockerimage", 
     "name": "Download the pihole docker image", 

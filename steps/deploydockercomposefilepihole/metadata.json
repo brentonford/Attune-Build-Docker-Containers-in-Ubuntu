@@ -1,7 +1,9 @@
 {
+    "actionOnStepFail": null, 
     "archiveKey": "dockercomposefiles", 
     "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
+    "externalUuid4": "ddf25680-0665-4437-bcda-538f1445d70b", 
     "key": "deploydockercomposefilepihole", 
     "makoFileNames": [
         "pihole-docker-compose.yml"

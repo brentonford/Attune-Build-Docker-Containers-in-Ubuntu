@@ -1,7 +1,9 @@
 {
+    "actionOnStepFail": null, 
     "archiveKey": "dockercomposefiles", 
     "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
+    "externalUuid4": "e4de9533-73d7-46c3-84af-895a0997d1f3", 
     "key": "deploydockercomposefileportainer", 
     "makoFileNames": [
         "portainer-docker-compose.yml"

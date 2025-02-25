@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "36cf4193-8a06-4342-8d69-3fe26a92043e", 
     "interpreter": 1, 
     "key": "setownershipofdockerfiles", 
     "name": "Set Ownership of docker files", 

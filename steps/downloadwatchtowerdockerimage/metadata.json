@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "b67aac28-7751-49b3-bafe-3814b6e3fd96", 
     "interpreter": 1, 
     "key": "downloadwatchtowerdockerimage", 
     "name": "Download Watchtower Docker image", 

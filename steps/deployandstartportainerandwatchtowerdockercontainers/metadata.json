@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "4d6abf8b-82b2-45a9-b6d7-d0f9b267dd68", 
     "isBlueprint": false, 
     "key": "deployandstartportainerandwatchtowerdockercontainers", 
     "links": [], 

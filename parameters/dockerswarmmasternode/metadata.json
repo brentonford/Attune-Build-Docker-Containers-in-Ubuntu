@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "73c802c8-4d03-4efd-b339-04d6a77d0672", 
     "key": "dockerswarmmasternode", 
     "name": "Docker Swarm Master Node", 
     "showInPlan": true, 

@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "1dc380ca-98c2-4808-ac9c-5bd7768c8621", 
     "key": "dockerswarmmastertoken", 
     "name": "Docker Swarm Master Token", 
     "showInPlan": true, 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "981bff83-b812-42ce-9805-d8aef3165325", 
     "interpreter": 1, 
     "key": "createandstartwatchtowerdockercontainer", 
     "name": "Create and Start Watchtower Docker Container", 

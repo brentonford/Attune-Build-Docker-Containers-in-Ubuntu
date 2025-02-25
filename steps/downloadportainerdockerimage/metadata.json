@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "a15220bc-b3ab-42a7-a549-1414561997fa", 
     "interpreter": 1, 
     "key": "downloadportainerdockerimage", 
     "name": "Download Portainer Docker image", 

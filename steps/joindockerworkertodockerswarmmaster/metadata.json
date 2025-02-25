@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "273e02b6-c403-44e1-9bd6-892a4532754b", 
     "interpreter": 1, 
     "key": "joindockerworkertodockerswarmmaster", 
     "name": "Join Docker Worker to Docker Swarm Master", 

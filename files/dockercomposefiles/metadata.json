@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "be1106bf-260d-4690-95d9-91f7a68584f0", 
     "key": "dockercomposefiles", 
     "name": "Docker Compose Files", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

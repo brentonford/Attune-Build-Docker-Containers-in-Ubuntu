@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ce1e2c2c-58eb-4be2-8724-82acc2e90339", 
     "interpreter": 1, 
     "key": "deletesetownershipofdockerfilesportainer", 
     "name": "DELETE Set Ownership of Docker Files - portainer", 

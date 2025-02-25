@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "3c617045-7321-4e89-9b04-35d0ec06e872", 
     "interpreter": 1, 
     "key": "confirmpiholewebsiteisup", 
     "name": "Confirm Pi-hole website is up", 

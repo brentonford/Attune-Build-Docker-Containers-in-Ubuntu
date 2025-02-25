@@ -1,39 +1,33 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "30c84e6a-38b6-4154-822f-938c3a74a57c", 
     "isBlueprint": true, 
     "key": "setupubuntuosandstartpiholedockercontainer", 
     "links": [
         {
-            "order": 0, 
             "stepKey": "stopanddisablesystemdresolved"
         }, 
         {
-            "order": 20, 
             "stepKey": "updateresolvconf"
         }, 
         {
-            "order": 40, 
             "stepKey": "deploydockercomposefilepihole"
         }, 
         {
-            "order": 60, 
             "stepKey": "setownershipofdockerfiles"
         }, 
         {
-            "order": 70, 
             "stepKey": "downloadthepiholedockerimage"
         }, 
         {
-            "order": 80, 
             "stepKey": "createandstartpiholedockercontainer"
         }, 
         {
-            "order": 100, 
             "stepKey": "dockercontainersrunning"
         }, 
         {
-            "order": 120, 
             "stepKey": "confirmpiholewebsiteisup"
         }
     ], 

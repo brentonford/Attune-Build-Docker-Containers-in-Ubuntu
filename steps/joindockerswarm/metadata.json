@@ -1,11 +1,12 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "967a8015-e885-4551-a649-77709daeac14", 
     "isBlueprint": true, 
     "key": "joindockerswarm", 
     "links": [
         {
-            "order": 0, 
             "stepKey": "joindockerworkertodockerswarmmaster"
         }
     ], 
