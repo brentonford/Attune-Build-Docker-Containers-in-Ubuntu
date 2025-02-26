@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "162828de-bc38-4f74-a271-4bd51aa5b589", 
+    "isBlueprint": true, 
+    "key": "deployandstartpiholedockercontainer", 
+    "links": [
+        {
+            "stepKey": "deploydockercomposefilepihole"
+        }, 
+        {
+            "stepKey": "setownershipofdockerfiles"
+        }, 
+        {
+            "stepKey": "createandstartpiholedockercontainer"
+        }, 
+        {
+            "stepKey": "dockercontainersrunning"
+        }, 
+        {
+            "stepKey": "confirmpiholewebsiteisup"
+        }
+    ], 
+    "name": "Deploy and Start PiHole docker container", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

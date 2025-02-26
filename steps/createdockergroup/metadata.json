@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": "stop", 
     "enabled": true, 
-    "externalUuid4": "36cf4193-8a06-4342-8d69-3fe26a92043e", 
+    "externalUuid4": "de39f16b-c77b-40a2-88c3-0b63ecd00d51", 
     "interpreter": 1, 
-    "key": "setownershipofdockerfiles", 
-    "name": "Set Ownership of docker files", 
+    "key": "createdockergroup", 
+    "name": "create docker group", 
     "osCredKey": "linuxuserroot", 
-    "serverKey": "dockernode", 
+    "serverKey": "linuxnode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

@@ -1,10 +1,1 @@
-chown {dockerLinuxUser.user}:{dockerLinuxUser.user} /home/{dockerLinuxUser.user}/docker
-chown {dockerLinuxUser.user}:{dockerLinuxUser.user} /home/{dockerLinuxUser.user}/docker/*
-
-cd /home/{dockerLinuxUser.user}/
-pwd
-ls -ltr
-
-cd /home/{dockerLinuxUser.user}/docker/
-pwd
-ls -ltr
+chown -v -R {dockerLinuxUser.user}:{dockerLinuxUser.user} /home/{dockerLinuxUser.user}/docker

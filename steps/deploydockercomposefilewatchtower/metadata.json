@@ -1,6 +1,6 @@
 {
     "actionOnStepFail": null, 
-    "archiveKey": "dockercomposefiles", 
+    "archiveKey": "piholedockercomposefile", 
     "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
     "externalUuid4": "9476168e-e987-4349-9e98-6dc14c71620a", 

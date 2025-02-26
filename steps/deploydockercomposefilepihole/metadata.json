@@ -1,6 +1,6 @@
 {
-    "actionOnStepFail": null, 
-    "archiveKey": "dockercomposefiles", 
+    "actionOnStepFail": "stop", 
+    "archiveKey": "piholedockercomposefile", 
     "deployPath": "/home/{dockerLinuxUser.user}/docker/", 
     "enabled": true, 
     "externalUuid4": "ddf25680-0665-4437-bcda-538f1445d70b", 
@@ -10,11 +10,6 @@
     ], 
     "makoParameters": [
         {
-            "name": "node", 
-            "parameterKey": "linuxnode", 
-            "parameterType": "c.s.s.b.phv.LinuxServer"
-        }, 
-        {
             "name": "timezone", 
             "parameterKey": "timezone", 
             "parameterType": "c.s.s.b.phv.Text"
@@ -23,16 +18,6 @@
             "name": "user", 
             "parameterKey": "dockerlinuxuser", 
             "parameterType": "c.s.s.b.phv.LinOsCred"
-        }, 
-        {
-            "name": "dns1", 
-            "parameterKey": "dns1", 
-            "parameterType": "c.s.s.b.phv.Server"
-        }, 
-        {
-            "name": "dns2", 
-            "parameterKey": "dns2", 
-            "parameterType": "c.s.s.b.phv.Server"
         }
     ], 
     "name": "Deploy Docker Compose File - pihole", 

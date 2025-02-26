@@ -1,0 +1,2 @@
+groupadd -f docker
+cat /etc/group | grep docker

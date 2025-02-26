@@ -1,0 +1,2 @@
+usermod -aG docker {dockerLinuxUser.user}
+groups {dockerLinuxUser.user}
