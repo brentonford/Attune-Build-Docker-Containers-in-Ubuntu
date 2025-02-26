@@ -1,1 +1,2 @@
-curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+curl -fL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+ls -ltrh /etc/apt/keyrings/
