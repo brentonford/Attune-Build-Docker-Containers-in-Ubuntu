@@ -1,0 +1,30 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "1b49c642-20dd-4b10-b393-d6cfec9fd3c9", 
+    "isBlueprint": true, 
+    "key": "installdockerengineondebian", 
+    "links": [
+        {
+            "stepKey": "updatesthepackagelistsforsoftwarerepositories"
+        }, 
+        {
+            "stepKey": "installcacertificatesandcurlpackages"
+        }, 
+        {
+            "stepKey": "addtheofficialdockerrepositorytoyourpackagesources"
+        }, 
+        {
+            "stepKey": "updatesthepackagelistsforsoftwarerepositories"
+        }, 
+        {
+            "stepKey": "installthedockerpackages"
+        }, 
+        {
+            "stepKey": "verifythatthedockerinstallationissuccessful"
+        }
+    ], 
+    "name": "Install Docker Engine on Debian", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

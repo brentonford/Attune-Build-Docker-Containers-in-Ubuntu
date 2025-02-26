@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "c268803c-2c85-4220-9219-a8ebdc7482e5", 
+    "interpreter": 1, 
+    "key": "makeetcaptkeyringsdockerascreadableforallusers", 
+    "name": "make /etc/apt/keyrings/docker.asc readable for all users", 
+    "osCredKey": "linuxuserroot", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

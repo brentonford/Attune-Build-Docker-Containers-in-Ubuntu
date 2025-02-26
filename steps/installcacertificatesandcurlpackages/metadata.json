@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "4b387d51-abd4-4487-8cfc-b9f0c111c0bc", 
+    "interpreter": 1, 
+    "key": "installcacertificatesandcurlpackages", 
+    "name": "install ca-certificates and curl packages", 
+    "osCredKey": "linuxuserroot", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

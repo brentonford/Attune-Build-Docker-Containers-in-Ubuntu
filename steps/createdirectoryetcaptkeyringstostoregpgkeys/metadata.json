@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "c7f5e5f0-6fc2-46be-a2df-7e2d43f2483a", 
+    "interpreter": 1, 
+    "key": "createdirectoryetcaptkeyringstostoregpgkeys", 
+    "name": "create directory /etc/apt/keyrings to store GPG keys", 
+    "osCredKey": "linuxuserroot", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

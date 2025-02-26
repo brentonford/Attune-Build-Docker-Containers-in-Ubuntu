@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "842f692d-6cc9-41ad-8ff9-56974c13e919", 
+    "key": "linuxusernonprivileged", 
+    "name": "Linux User: non privileged", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}
